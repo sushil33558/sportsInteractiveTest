@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1C8E657F-E3FA-4002-A67D-D02F125035DF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9AE48B6-F9F0-4A5B-8ED6-177577866637"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE1C72BE-4AF7-4465-856A-F8119630094E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90972CE9-EB3B-4A8A-9BED-BCBD4D89D93E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E79734D8-61A5-434B-A643-0D51B7309122"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E79734D8-61A5-434B-A643-0D51B7309122 - 85de8a120a8b7633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportInterceiveTest.MatchTeamInfoVC.viewDidLoad() -&gt; ()"
+                  moduleName = "SportInterceiveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Divya/Desktop/SportInterceiveTest/SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "625">
+               </Location>
+               <Location
+                  uuid = "E79734D8-61A5-434B-A643-0D51B7309122 - d12200e9973b6d43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Swift.String, value: SportInterceiveTest.Player)) -&gt; Swift.String in SportInterceiveTest.MatchTeamInfoVC.viewDidLoad() -&gt; ()"
+                  moduleName = "SportInterceiveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Divya/Desktop/SportInterceiveTest/SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC5E5835-E5A0-4CD4-9B50-59C55976DAF9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC5E5835-E5A0-4CD4-9B50-59C55976DAF9 - 85de8a120a8b76f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SportInterceiveTest.MatchTeamInfoVC.viewDidLoad() -&gt; ()"
+                  moduleName = "SportInterceiveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Divya/Desktop/SportInterceiveTest/SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1750">
+               </Location>
+               <Location
+                  uuid = "EC5E5835-E5A0-4CD4-9B50-59C55976DAF9 - 93bca3da3fe3db86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 ((key: Swift.String, value: SportInterceiveTest.Player)) -&gt; Swift.String in SportInterceiveTest.MatchTeamInfoVC.viewDidLoad() -&gt; ()"
+                  moduleName = "SportInterceiveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Divya/Desktop/SportInterceiveTest/SportInterceiveTest/View/MatchTeamInfo/MatchTeamInfoVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C67293097B6E03CC131C2B /* Pods_SportInterceiveTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3A8A7FFD7E958332B00FDB /* Pods_SportInterceiveTestTests.framework */; };
+		5A370AA2290AB6940082A4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370AA1290AB6940082A4D9 /* AppDelegate.swift */; };
+		5A370AA4290AB6940082A4D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370AA3290AB6940082A4D9 /* SceneDelegate.swift */; };
+		5A370AA9290AB6940082A4D9 /* Support.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A370AA7290AB6940082A4D9 /* Support.storyboard */; };
+		5A370AAE290AB6A10082A4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A370AAD290AB6A10082A4D9 /* Assets.xcassets */; };
+		5A370AB1290AB6A10082A4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A370AAF290AB6A10082A4D9 /* LaunchScreen.storyboard */; };
+		5A370ABC290AB6A10082A4D9 /* SportInterceiveTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370ABB290AB6A10082A4D9 /* SportInterceiveTestTests.swift */; };
+		5A370AC7290AB6A10082A4D9 /* SportInterceiveTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370AC6290AB6A10082A4D9 /* SportInterceiveTestUITests.swift */; };
+		5A370AF6290ABA3C0082A4D9 /* MatchDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370AF5290ABA3C0082A4D9 /* MatchDetailVC.swift */; };
+		5A370AFE290ABA660082A4D9 /* MatchTeamInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370AFD290ABA660082A4D9 /* MatchTeamInfoVC.swift */; };
+		5A370B06290ABB710082A4D9 /* CricketMatchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370B05290ABB710082A4D9 /* CricketMatchModels.swift */; };
+		5A370B0B290ABBCB0082A4D9 /* CricketMatchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370B0A290ABBCB0082A4D9 /* CricketMatchVM.swift */; };
+		5A370B1E290ABCF20082A4D9 /* ApisSuffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370B1D290ABCF20082A4D9 /* ApisSuffix.swift */; };
+		5A370B23290ABD2F0082A4D9 /* BaseAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370B22290ABD2F0082A4D9 /* BaseAPi.swift */; };
+		5A370B28290ABD530082A4D9 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370B27290ABD530082A4D9 /* Requests.swift */; };
+		5A370B2D290ABD800082A4D9 /* RequestHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370B2C290ABD800082A4D9 /* RequestHeaderField.swift */; };
+		5A79CAF9290BF15C008CB047 /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79CAF7290BF15C008CB047 /* FirstCell.swift */; };
+		5A79CAFA290BF15C008CB047 /* FirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A79CAF8290BF15C008CB047 /* FirstCell.xib */; };
+		5A79CB0B290BF185008CB047 /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79CB09290BF185008CB047 /* SecondCell.swift */; };
+		5A79CB0C290BF185008CB047 /* SecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A79CB0A290BF185008CB047 /* SecondCell.xib */; };
+		5A79CB12290BF196008CB047 /* ThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79CB10290BF196008CB047 /* ThirdCell.swift */; };
+		5A79CB13290BF196008CB047 /* ThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A79CB11290BF196008CB047 /* ThirdCell.xib */; };
+		5A79CB19290BF1E4008CB047 /* FourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79CB17290BF1E4008CB047 /* FourthCell.swift */; };
+		5A79CB1A290BF1E4008CB047 /* FourthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A79CB18290BF1E4008CB047 /* FourthCell.xib */; };
+		D03D545C2E654C9D73EAC2E1 /* Pods_SportInterceiveTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3BAF0A1052D127DFDB6C0E /* Pods_SportInterceiveTest.framework */; };
+		DCAB63A75801A018FE49B8C2 /* Pods_SportInterceiveTest_SportInterceiveTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B676BB0D4EAF2508C1DA2F /* Pods_SportInterceiveTest_SportInterceiveTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A370AB8290AB6A10082A4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A370A96290AB6940082A4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A370A9D290AB6940082A4D9;
+			remoteInfo = SportInterceiveTest;
+		};
+		5A370AC3290AB6A10082A4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A370A96290AB6940082A4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A370A9D290AB6940082A4D9;
+			remoteInfo = SportInterceiveTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120589A0A351699FE517B205 /* Pods-SportInterceiveTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportInterceiveTestTests.release.xcconfig"; path = "Target Support Files/Pods-SportInterceiveTestTests/Pods-SportInterceiveTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B3BAF0A1052D127DFDB6C0E /* Pods_SportInterceiveTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportInterceiveTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3A8A7FFD7E958332B00FDB /* Pods_SportInterceiveTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportInterceiveTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A370A9E290AB6940082A4D9 /* SportInterceiveTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportInterceiveTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A370AA1290AB6940082A4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A370AA3290AB6940082A4D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A370AA8290AB6940082A4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Support.storyboard; sourceTree = "<group>"; };
+		5A370AAD290AB6A10082A4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A370AB0290AB6A10082A4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A370AB2290AB6A10082A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A370AB7290AB6A10082A4D9 /* SportInterceiveTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportInterceiveTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A370ABB290AB6A10082A4D9 /* SportInterceiveTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportInterceiveTestTests.swift; sourceTree = "<group>"; };
+		5A370ABD290AB6A10082A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A370AC2290AB6A10082A4D9 /* SportInterceiveTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportInterceiveTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A370AC6290AB6A10082A4D9 /* SportInterceiveTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportInterceiveTestUITests.swift; sourceTree = "<group>"; };
+		5A370AC8290AB6A10082A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A370AF5290ABA3C0082A4D9 /* MatchDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailVC.swift; sourceTree = "<group>"; };
+		5A370AFD290ABA660082A4D9 /* MatchTeamInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTeamInfoVC.swift; sourceTree = "<group>"; };
+		5A370B05290ABB710082A4D9 /* CricketMatchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketMatchModels.swift; sourceTree = "<group>"; };
+		5A370B0A290ABBCB0082A4D9 /* CricketMatchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketMatchVM.swift; sourceTree = "<group>"; };
+		5A370B1D290ABCF20082A4D9 /* ApisSuffix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApisSuffix.swift; sourceTree = "<group>"; };
+		5A370B22290ABD2F0082A4D9 /* BaseAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPi.swift; sourceTree = "<group>"; };
+		5A370B27290ABD530082A4D9 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		5A370B2C290ABD800082A4D9 /* RequestHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderField.swift; sourceTree = "<group>"; };
+		5A79CAF7290BF15C008CB047 /* FirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		5A79CAF8290BF15C008CB047 /* FirstCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCell.xib; sourceTree = "<group>"; };
+		5A79CB09290BF185008CB047 /* SecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
+		5A79CB0A290BF185008CB047 /* SecondCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCell.xib; sourceTree = "<group>"; };
+		5A79CB10290BF196008CB047 /* ThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCell.swift; sourceTree = "<group>"; };
+		5A79CB11290BF196008CB047 /* ThirdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdCell.xib; sourceTree = "<group>"; };
+		5A79CB17290BF1E4008CB047 /* FourthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthCell.swift; sourceTree = "<group>"; };
+		5A79CB18290BF1E4008CB047 /* FourthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthCell.xib; sourceTree = "<group>"; };
+		63357AEACB696612CDC8B6FB /* Pods-SportInterceiveTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportInterceiveTest.release.xcconfig"; path = "Target Support Files/Pods-SportInterceiveTest/Pods-SportInterceiveTest.release.xcconfig"; sourceTree = "<group>"; };
+		A816EFBE5E321FFEA49731B9 /* Pods-SportInterceiveTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportInterceiveTest.debug.xcconfig"; path = "Target Support Files/Pods-SportInterceiveTest/Pods-SportInterceiveTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D2DF9E3B4D3D970ADD2829FD /* Pods-SportInterceiveTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportInterceiveTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SportInterceiveTestTests/Pods-SportInterceiveTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4073DCC5A7D9B35F989F24 /* Pods-SportInterceiveTest-SportInterceiveTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportInterceiveTest-SportInterceiveTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SportInterceiveTest-SportInterceiveTestUITests/Pods-SportInterceiveTest-SportInterceiveTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE75D1EDA835DBDBC4F44638 /* Pods-SportInterceiveTest-SportInterceiveTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportInterceiveTest-SportInterceiveTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-SportInterceiveTest-SportInterceiveTestUITests/Pods-SportInterceiveTest-SportInterceiveTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B676BB0D4EAF2508C1DA2F /* Pods_SportInterceiveTest_SportInterceiveTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportInterceiveTest_SportInterceiveTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A370A9B290AB6940082A4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03D545C2E654C9D73EAC2E1 /* Pods_SportInterceiveTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A370AB4290AB6A10082A4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C67293097B6E03CC131C2B /* Pods_SportInterceiveTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A370ABF290AB6A10082A4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB63A75801A018FE49B8C2 /* Pods_SportInterceiveTest_SportInterceiveTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408F819F5E386F940F54BACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A816EFBE5E321FFEA49731B9 /* Pods-SportInterceiveTest.debug.xcconfig */,
+				63357AEACB696612CDC8B6FB /* Pods-SportInterceiveTest.release.xcconfig */,
+				EE75D1EDA835DBDBC4F44638 /* Pods-SportInterceiveTest-SportInterceiveTestUITests.debug.xcconfig */,
+				EA4073DCC5A7D9B35F989F24 /* Pods-SportInterceiveTest-SportInterceiveTestUITests.release.xcconfig */,
+				D2DF9E3B4D3D970ADD2829FD /* Pods-SportInterceiveTestTests.debug.xcconfig */,
+				120589A0A351699FE517B205 /* Pods-SportInterceiveTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A370A95290AB6940082A4D9 = {
+			isa = PBXGroup;
+			children = (
+				5A370AA0290AB6940082A4D9 /* SportInterceiveTest */,
+				5A370ABA290AB6A10082A4D9 /* SportInterceiveTestTests */,
+				5A370AC5290AB6A10082A4D9 /* SportInterceiveTestUITests */,
+				5A370A9F290AB6940082A4D9 /* Products */,
+				408F819F5E386F940F54BACC /* Pods */,
+				7A8DACC72798566A1165FDBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A370A9F290AB6940082A4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A370A9E290AB6940082A4D9 /* SportInterceiveTest.app */,
+				5A370AB7290AB6A10082A4D9 /* SportInterceiveTestTests.xctest */,
+				5A370AC2290AB6A10082A4D9 /* SportInterceiveTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A370AA0290AB6940082A4D9 /* SportInterceiveTest */ = {
+			isa = PBXGroup;
+			children = (
+				5A370AE4290AB7AB0082A4D9 /* Halpers */,
+				5A370AE5290AB7B70082A4D9 /* Scene */,
+				5A370AEF290AB92F0082A4D9 /* Storyboard */,
+				5A370AF1290AB9670082A4D9 /* Model */,
+				5A370AF0290AB9540082A4D9 /* View */,
+				5A370AF2290AB9740082A4D9 /* ViewModel */,
+				5A370AAD290AB6A10082A4D9 /* Assets.xcassets */,
+				5A370AB2290AB6A10082A4D9 /* Info.plist */,
+			);
+			path = SportInterceiveTest;
+			sourceTree = "<group>";
+		};
+		5A370ABA290AB6A10082A4D9 /* SportInterceiveTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A370ABB290AB6A10082A4D9 /* SportInterceiveTestTests.swift */,
+				5A370ABD290AB6A10082A4D9 /* Info.plist */,
+			);
+			path = SportInterceiveTestTests;
+			sourceTree = "<group>";
+		};
+		5A370AC5290AB6A10082A4D9 /* SportInterceiveTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A370AC6290AB6A10082A4D9 /* SportInterceiveTestUITests.swift */,
+				5A370AC8290AB6A10082A4D9 /* Info.plist */,
+			);
+			path = SportInterceiveTestUITests;
+			sourceTree = "<group>";
+		};
+		5A370AE4290AB7AB0082A4D9 /* Halpers */ = {
+			isa = PBXGroup;
+			children = (
+				5A370B1D290ABCF20082A4D9 /* ApisSuffix.swift */,
+				5A370B22290ABD2F0082A4D9 /* BaseAPi.swift */,
+				5A370B27290ABD530082A4D9 /* Requests.swift */,
+				5A370B2C290ABD800082A4D9 /* RequestHeaderField.swift */,
+			);
+			path = Halpers;
+			sourceTree = "<group>";
+		};
+		5A370AE5290AB7B70082A4D9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5A370AA1290AB6940082A4D9 /* AppDelegate.swift */,
+				5A370AA3290AB6940082A4D9 /* SceneDelegate.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		5A370AEF290AB92F0082A4D9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5A370AA7290AB6940082A4D9 /* Support.storyboard */,
+				5A370AAF290AB6A10082A4D9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5A370AF0290AB9540082A4D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A370AF3290AB99F0082A4D9 /* MatchDetail */,
+				5A370AF4290AB9C40082A4D9 /* MatchTeamInfo */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A370AF1290AB9670082A4D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A370B05290ABB710082A4D9 /* CricketMatchModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A370AF2290AB9740082A4D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A370B0A290ABBCB0082A4D9 /* CricketMatchVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5A370AF3290AB99F0082A4D9 /* MatchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5A370AF5290ABA3C0082A4D9 /* MatchDetailVC.swift */,
+			);
+			path = MatchDetail;
+			sourceTree = "<group>";
+		};
+		5A370AF4290AB9C40082A4D9 /* MatchTeamInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5A79CAF6290BF131008CB047 /* CVc */,
+				5A370AFD290ABA660082A4D9 /* MatchTeamInfoVC.swift */,
+			);
+			path = MatchTeamInfo;
+			sourceTree = "<group>";
+		};
+		5A79CAF6290BF131008CB047 /* CVc */ = {
+			isa = PBXGroup;
+			children = (
+				5A79CAF7290BF15C008CB047 /* FirstCell.swift */,
+				5A79CAF8290BF15C008CB047 /* FirstCell.xib */,
+				5A79CB09290BF185008CB047 /* SecondCell.swift */,
+				5A79CB0A290BF185008CB047 /* SecondCell.xib */,
+				5A79CB10290BF196008CB047 /* ThirdCell.swift */,
+				5A79CB11290BF196008CB047 /* ThirdCell.xib */,
+				5A79CB17290BF1E4008CB047 /* FourthCell.swift */,
+				5A79CB18290BF1E4008CB047 /* FourthCell.xib */,
+			);
+			path = CVc;
+			sourceTree = "<group>";
+		};
+		7A8DACC72798566A1165FDBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B3BAF0A1052D127DFDB6C0E /* Pods_SportInterceiveTest.framework */,
+				F1B676BB0D4EAF2508C1DA2F /* Pods_SportInterceiveTest_SportInterceiveTestUITests.framework */,
+				3C3A8A7FFD7E958332B00FDB /* Pods_SportInterceiveTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A370A9D290AB6940082A4D9 /* SportInterceiveTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A370ACB290AB6A10082A4D9 /* Build configuration list for PBXNativeTarget "SportInterceiveTest" */;
+			buildPhases = (
+				6D78FC12DFFDEF1294E6A275 /* [CP] Check Pods Manifest.lock */,
+				5A370A9A290AB6940082A4D9 /* Sources */,
+				5A370A9B290AB6940082A4D9 /* Frameworks */,
+				5A370A9C290AB6940082A4D9 /* Resources */,
+				A5B283C303FC4F07065C2CD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportInterceiveTest;
+			productName = SportInterceiveTest;
+			productReference = 5A370A9E290AB6940082A4D9 /* SportInterceiveTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A370AB6290AB6A10082A4D9 /* SportInterceiveTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A370ACE290AB6A10082A4D9 /* Build configuration list for PBXNativeTarget "SportInterceiveTestTests" */;
+			buildPhases = (
+				EBEB9056DB6655EE2FD57CDC /* [CP] Check Pods Manifest.lock */,
+				5A370AB3290AB6A10082A4D9 /* Sources */,
+				5A370AB4290AB6A10082A4D9 /* Frameworks */,
+				5A370AB5290AB6A10082A4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A370AB9290AB6A10082A4D9 /* PBXTargetDependency */,
+			);
+			name = SportInterceiveTestTests;
+			productName = SportInterceiveTestTests;
+			productReference = 5A370AB7290AB6A10082A4D9 /* SportInterceiveTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A370AC1290AB6A10082A4D9 /* SportInterceiveTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A370AD1290AB6A10082A4D9 /* Build configuration list for PBXNativeTarget "SportInterceiveTestUITests" */;
+			buildPhases = (
+				6ECCFA56E58BE99560FCCDDD /* [CP] Check Pods Manifest.lock */,
+				5A370ABE290AB6A10082A4D9 /* Sources */,
+				5A370ABF290AB6A10082A4D9 /* Frameworks */,
+				5A370AC0290AB6A10082A4D9 /* Resources */,
+				E73E4020EE41EE9F9087E48B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A370AC4290AB6A10082A4D9 /* PBXTargetDependency */,
+			);
+			name = SportInterceiveTestUITests;
+			productName = SportInterceiveTestUITests;
+			productReference = 5A370AC2290AB6A10082A4D9 /* SportInterceiveTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A370A96290AB6940082A4D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5A370A9D290AB6940082A4D9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5A370AB6290AB6A10082A4D9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5A370A9D290AB6940082A4D9;
+					};
+					5A370AC1290AB6A10082A4D9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5A370A9D290AB6940082A4D9;
+					};
+				};
+			};
+			buildConfigurationList = 5A370A99290AB6940082A4D9 /* Build configuration list for PBXProject "SportInterceiveTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A370A95290AB6940082A4D9;
+			productRefGroup = 5A370A9F290AB6940082A4D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A370A9D290AB6940082A4D9 /* SportInterceiveTest */,
+				5A370AB6290AB6A10082A4D9 /* SportInterceiveTestTests */,
+				5A370AC1290AB6A10082A4D9 /* SportInterceiveTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A370A9C290AB6940082A4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A79CB0C290BF185008CB047 /* SecondCell.xib in Resources */,
+				5A370AB1290AB6A10082A4D9 /* LaunchScreen.storyboard in Resources */,
+				5A370AAE290AB6A10082A4D9 /* Assets.xcassets in Resources */,
+				5A79CB1A290BF1E4008CB047 /* FourthCell.xib in Resources */,
+				5A79CB13290BF196008CB047 /* ThirdCell.xib in Resources */,
+				5A79CAFA290BF15C008CB047 /* FirstCell.xib in Resources */,
+				5A370AA9290AB6940082A4D9 /* Support.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A370AB5290AB6A10082A4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A370AC0290AB6A10082A4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D78FC12DFFDEF1294E6A275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportInterceiveTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ECCFA56E58BE99560FCCDDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportInterceiveTest-SportInterceiveTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B283C303FC4F07065C2CD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportInterceiveTest/Pods-SportInterceiveTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportInterceiveTest/Pods-SportInterceiveTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportInterceiveTest/Pods-SportInterceiveTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73E4020EE41EE9F9087E48B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportInterceiveTest-SportInterceiveTestUITests/Pods-SportInterceiveTest-SportInterceiveTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportInterceiveTest-SportInterceiveTestUITests/Pods-SportInterceiveTest-SportInterceiveTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportInterceiveTest-SportInterceiveTestUITests/Pods-SportInterceiveTest-SportInterceiveTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBEB9056DB6655EE2FD57CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportInterceiveTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A370A9A290AB6940082A4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A370B1E290ABCF20082A4D9 /* ApisSuffix.swift in Sources */,
+				5A370B0B290ABBCB0082A4D9 /* CricketMatchVM.swift in Sources */,
+				5A79CAF9290BF15C008CB047 /* FirstCell.swift in Sources */,
+				5A370AA2290AB6940082A4D9 /* AppDelegate.swift in Sources */,
+				5A370AFE290ABA660082A4D9 /* MatchTeamInfoVC.swift in Sources */,
+				5A370B28290ABD530082A4D9 /* Requests.swift in Sources */,
+				5A370B2D290ABD800082A4D9 /* RequestHeaderField.swift in Sources */,
+				5A79CB0B290BF185008CB047 /* SecondCell.swift in Sources */,
+				5A370B06290ABB710082A4D9 /* CricketMatchModels.swift in Sources */,
+				5A79CB12290BF196008CB047 /* ThirdCell.swift in Sources */,
+				5A370AF6290ABA3C0082A4D9 /* MatchDetailVC.swift in Sources */,
+				5A79CB19290BF1E4008CB047 /* FourthCell.swift in Sources */,
+				5A370B23290ABD2F0082A4D9 /* BaseAPi.swift in Sources */,
+				5A370AA4290AB6940082A4D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A370AB3290AB6A10082A4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A370ABC290AB6A10082A4D9 /* SportInterceiveTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A370ABE290AB6A10082A4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A370AC7290AB6A10082A4D9 /* SportInterceiveTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A370AB9290AB6A10082A4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A370A9D290AB6940082A4D9 /* SportInterceiveTest */;
+			targetProxy = 5A370AB8290AB6A10082A4D9 /* PBXContainerItemProxy */;
+		};
+		5A370AC4290AB6A10082A4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A370A9D290AB6940082A4D9 /* SportInterceiveTest */;
+			targetProxy = 5A370AC3290AB6A10082A4D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A370AA7290AB6940082A4D9 /* Support.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A370AA8290AB6940082A4D9 /* Base */,
+			);
+			name = Support.storyboard;
+			sourceTree = "<group>";
+		};
+		5A370AAF290AB6A10082A4D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A370AB0290AB6A10082A4D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A370AC9290AB6A10082A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A370ACA290AB6A10082A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A370ACC290AB6A10082A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A816EFBE5E321FFEA49731B9 /* Pods-SportInterceiveTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportInterceiveTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnew.devapp.SportInterceiveTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5A370ACD290AB6A10082A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63357AEACB696612CDC8B6FB /* Pods-SportInterceiveTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportInterceiveTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnew.devapp.SportInterceiveTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5A370ACF290AB6A10082A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DF9E3B4D3D970ADD2829FD /* Pods-SportInterceiveTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportInterceiveTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnew.devapp.SportInterceiveTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportInterceiveTest.app/SportInterceiveTest";
+			};
+			name = Debug;
+		};
+		5A370AD0290AB6A10082A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120589A0A351699FE517B205 /* Pods-SportInterceiveTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportInterceiveTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnew.devapp.SportInterceiveTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportInterceiveTest.app/SportInterceiveTest";
+			};
+			name = Release;
+		};
+		5A370AD2290AB6A10082A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE75D1EDA835DBDBC4F44638 /* Pods-SportInterceiveTest-SportInterceiveTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportInterceiveTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnew.devapp.SportInterceiveTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportInterceiveTest;
+			};
+			name = Debug;
+		};
+		5A370AD3290AB6A10082A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4073DCC5A7D9B35F989F24 /* Pods-SportInterceiveTest-SportInterceiveTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportInterceiveTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnew.devapp.SportInterceiveTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportInterceiveTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A370A99290AB6940082A4D9 /* Build configuration list for PBXProject "SportInterceiveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A370AC9290AB6A10082A4D9 /* Debug */,
+				5A370ACA290AB6A10082A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A370ACB290AB6A10082A4D9 /* Build configuration list for PBXNativeTarget "SportInterceiveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A370ACC290AB6A10082A4D9 /* Debug */,
+				5A370ACD290AB6A10082A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A370ACE290AB6A10082A4D9 /* Build configuration list for PBXNativeTarget "SportInterceiveTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A370ACF290AB6A10082A4D9 /* Debug */,
+				5A370AD0290AB6A10082A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A370AD1290AB6A10082A4D9 /* Build configuration list for PBXNativeTarget "SportInterceiveTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A370AD2290AB6A10082A4D9 /* Debug */,
+				5A370AD3290AB6A10082A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A370A96290AB6940082A4D9 /* Project object */;
+}
